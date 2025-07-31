@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEPI Courses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .courses {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .card-header {
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+    }
+    .card-header.blue { background-color: #007bff; }
+    .card-header.green { background-color: #28a745; }
+    .card-header.red { background-color: #dc3545; }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body h3 {
+      margin: 10px 0;
+    }
+
+    .card-body p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .btn {
+      display: block;
+      margin: 20px auto 0;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to DEPI_R3_BNS_DS Courses</h1>
+
+  <div class="courses">
+
+    <div class="card">
+      <div class="card-header blue">Python and Web Scraping</div>
+      <div class="card-body">
+        <h3>Python for Beginners</h3>
+        <p>Welcome to the DEPI DS Program. Start your journey with Python fundamentals!</p>
+        <button class="btn">Win $20</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header green">Data Science</div>
+      <div class="card-body">
+        <h3>Python Web Development</h3>
+        <p>Already know Python? Learn how to build powerful web applications with it!</p>
+        <button class="btn">Win $30</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header red">Machine Learning</div>
+      <div class="card-body">
+        <h3>Python Machine Learning</h3>
+        <p>Dive into AI and ML. Master data modeling and prediction using Python!</p>
+        <button class="btn">Win $100</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
